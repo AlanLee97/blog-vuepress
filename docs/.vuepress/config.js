@@ -24,6 +24,11 @@ module.exports = config({
       "script",
       { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
     ],
+    // 解决语雀图片防盗链问题
+    [
+      "meta",
+      { name: "referrer", content: "no-referrer" },
+    ],
   ],
 
   locales: {
