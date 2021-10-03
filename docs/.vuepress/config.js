@@ -4,7 +4,7 @@ module.exports = config({
   title: "Blog | AlanLee",
   description: "If the short cut to learning, it also must be diligent.",
 
-  // base: "/blog-vuepress/",
+  base: "/blog-vuepress/",
 
   dest: "./dist",
 
