@@ -1,10 +1,10 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
+  title: "Blog | AlanLee",
+  description: "If the short cut to learning, it also must be diligent.",
 
-  base: "/blog-vuepress/",
+  // base: "/blog-vuepress/",
 
   dest: "./dist",
 
@@ -28,91 +28,72 @@ module.exports = config({
 
   locales: {
     "/": {
-      lang: "en-US",
+      lang: "zh-CN",
     },
-    "/zh/": {
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
-    },
+    // "/zh/": {
+    //   title: "Theme Demo",
+    //   description: "vuepress-theme-hope 的 demo",
+    // },
   },
 
   themeConfig: {
-    logo: "/logo.svg",
-    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+    logo: "/assets/AlanLee.jpg",
+    hostname: "http://blog.alanlee.top",
 
-    author: "Mr.Hope",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+    author: "AlanLee",
+    // repo: "https://github.com/AlanLee97/blog-vuepress",
 
-    nav: [
-      { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
-      {
-        text: "Guide",
-        icon: "creative",
-        link: "/guide/",
-      },
-      {
-        text: "Docs",
-        link: "https://vuepress-theme-hope.github.io/",
-        icon: "note",
-      },
-    ],
+    nav: require('./config/nav'),
 
-    sidebar: {
-      "/": [
-        "",
-        "home",
-        "slides",
-        "layout",
-        {
-          title: "Guide",
-          icon: "creative",
-          prefix: "guide/",
-          children: ["", "page", "markdown", "disable", "encrypt"],
-        },
-      ],
-    },
+    sidebar: require('./config/sidebar'),
 
-    locales: {
-      "/zh/": {
-        nav: [
-          { text: "博客主页", link: "/zh/", icon: "home" },
-          { text: "项目主页", link: "/zh/home/", icon: "home" },
-          {
-            text: "如何使用",
-            icon: "creative",
-            link: "/zh/guide/",
-          },
-          {
-            text: "主题文档",
-            icon: "note",
-            link: "https://vuepress-theme-hope.github.io/zh/",
-          },
-        ],
-        sidebar: {
-          "/zh/": [
-            "",
-            "home",
-            "slides",
-            "layout",
-            {
-              title: "如何使用",
-              icon: "creative",
-              prefix: "guide/",
-              children: ["", "page", "markdown", "disable", "encrypt"],
-            },
-          ],
-        },
-      },
-    },
+    // sidebar: {
+    //   "/": [
+    //     "",
+    //     "home",
+    //     "layout",
+    //   ],
+    // },
+
+    // locales: {
+    //   "/zh/": {
+    //     nav: [
+    //       { text: "博客主页", link: "/zh/", icon: "home" },
+    //       { text: "项目主页", link: "/zh/home/", icon: "home" },
+    //       {
+    //         text: "如何使用",
+    //         icon: "creative",
+    //         link: "/zh/guide/",
+    //       },
+    //       {
+    //         text: "主题文档",
+    //         icon: "note",
+    //         link: "https://vuepress-theme-hope.github.io/zh/",
+    //       },
+    //     ],
+    //     sidebar: {
+    //       "/zh/": [
+    //         "",
+    //         "home",
+    //         "slides",
+    //         "layout",
+    //         {
+    //           title: "如何使用",
+    //           icon: "creative",
+    //           prefix: "guide/",
+    //           children: ["", "page", "markdown", "disable", "encrypt"],
+    //         },
+    //       ],
+    //     },
+    //   },
+    // },
 
     blog: {
-      intro: "/intro/",
+      intro: "/about/",
       sidebarDisplay: "mobile",
       links: {
-        Zhihu: "https://zhihu.com",
-        Baidu: "https://baidu.com",
-        Github: "https://github.com",
+        Github: "https://github.com/AlanLee97",
+        Gitee: "https://gitee.com/AlanLee97",
       },
     },
 
