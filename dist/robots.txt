@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: http://blog.alanlee.top/blog-vuepress/sitemap.xml
