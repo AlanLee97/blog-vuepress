@@ -55,6 +55,7 @@ module.exports = {
   // 计算机通识
   "/common/network/": common.network,
   "/common/design-pattern/": common.designPattern,
+  "/common/other/": common.other,
 
   // 项目
   "/project/graduation-project/": project.graduationProject,

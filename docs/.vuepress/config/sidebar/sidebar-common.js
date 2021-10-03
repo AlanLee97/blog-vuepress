@@ -2,6 +2,7 @@ const configObj = {
   network: {
     basePath: "/common/network/",
     titles: [
+      "计算机网络面试知识点.md",
       "计算机网络面试知识点总结.md",
       "计算机网络知识总结.md",
       "整合.md",
@@ -42,6 +43,22 @@ const configObj = {
       }
     }
   },
+  other: {
+    basePath: "/common/other/",
+    titles: [
+      "",
+    ],
+    sub: {
+      mediaKnowledage: {
+        basePath: "/common/other/media-knowledage/",
+        titles: [
+          "",
+          "音视频知识.md",
+          "Docker快速搭建Nginx流媒体服务器.md",
+        ],
+      }
+    }
+  },
 }
 
 function getChildren(basePath, titles) {
@@ -78,6 +95,13 @@ module.exports = {
       title: "设计原则",
       collapsable: true,
       children: getChildren(configObj.designPattern.sub.designPrinciple.basePath, configObj.designPattern.sub.designPrinciple.titles)
+    },
+  ],
+  other: [
+    {
+      title: "音视频相关",
+      collapsable: true,
+      children: getChildren(configObj.other.sub.mediaKnowledage.basePath, configObj.other.sub.mediaKnowledage.titles)
     },
   ]
 }

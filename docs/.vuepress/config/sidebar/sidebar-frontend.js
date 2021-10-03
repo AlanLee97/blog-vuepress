@@ -2,11 +2,11 @@ const configObj = {
   javascript: {
     basePath: "/front-end/js/",
     titles: [
-      "",
+      "JS面试知识点",
     ],
     sub: {
       es6: {
-        basePath: "/front-end/javascript/es6/",
+        basePath: "/front-end/js/es6/",
         titles: [
           "01-let关键字和const关键字.md",
           "02-函数的参数.md",
@@ -60,12 +60,13 @@ const configObj = {
       "HTML01-简介.md",
       "HTML02-基础.md",
       "HTML03-元素.md",
+      "HTML面试知识点.md",
     ]
   },
   css: {
     basePath: "/front-end/css/",
     titles: [
-      "",
+      "CSS面试知识点.md",
     ],
     sub: {
       flex: {
