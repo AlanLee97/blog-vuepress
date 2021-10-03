@@ -226,7 +226,7 @@ module.exports = [
         "items": [
           {
             "text": "音视频相关",
-            "link": "/common/other/media-knowledage/"
+            "link": "/common/other/"
           },
         ]
       }

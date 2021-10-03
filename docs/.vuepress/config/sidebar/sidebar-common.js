@@ -46,14 +46,14 @@ const configObj = {
   other: {
     basePath: "/common/other/",
     titles: [
-      "",
+      "vuepress中解决语雀图片防盗链问题.md",
     ],
     sub: {
       mediaKnowledage: {
         basePath: "/common/other/media-knowledage/",
         titles: [
-          "",
           "音视频知识.md",
+          "直播的运行过程.md",
           "Docker快速搭建Nginx流媒体服务器.md",
         ],
       }
@@ -102,6 +102,11 @@ module.exports = {
       title: "音视频相关",
       collapsable: true,
       children: getChildren(configObj.other.sub.mediaKnowledage.basePath, configObj.other.sub.mediaKnowledage.titles)
+    },
+    {
+      title: "杂项",
+      collapsable: true,
+      children: getChildren(configObj.other.basePath, configObj.other.titles)
     },
   ]
 }

@@ -2,7 +2,9 @@ const configObj = {
   javascript: {
     basePath: "/front-end/js/",
     titles: [
-      "JS面试知识点",
+      "JS面试知识点.md",
+      "JS手写代码.md",
+      "读书笔记：JavaScript高级程序设计（第4版）.md",
     ],
     sub: {
       es6: {
@@ -31,7 +33,15 @@ const configObj = {
       "父子组件通信",
       "element-ui自定义图片上传",
       "Vuepress在md文件中引入图片资源",
-    ]
+    ],
+    sub: {
+      vue3: {
+        basePath: "/front-end/vue/vue3/",
+        titles: [
+          "Composition API.md",
+        ],
+      }
+    }
   },
   react: {
     basePath: "/front-end/react/",
@@ -104,19 +114,19 @@ const configObj = {
   webpack: {
     basePath: "/front-end/webpack/",
     titles: [
-      "",
+      "Webpack.md",
     ]
   },
   vite: {
     basePath: "/front-end/vite/",
     titles: [
-      "",
+      "vite搭建vue应用.md",
     ]
   },
   browser: {
     basePath: "/front-end/browser/",
     titles: [
-      "",
+      "浏览器知识.md",
     ]
   },
 }
@@ -153,6 +163,11 @@ module.exports = {
       title: "Vue",
       collapsable: true,
       children: getChildren(configObj.vue.basePath, configObj.vue.titles)
+    },
+    {
+      title: "Vue3",
+      collapsable: true,
+      children: getChildren(configObj.vue.sub.vue3.basePath, configObj.vue.sub.vue3.titles)
     },
   ],
   react: [

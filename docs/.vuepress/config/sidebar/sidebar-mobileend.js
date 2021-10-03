@@ -3,6 +3,7 @@ const configObj = {
     basePath: "/front-end/miniprogram/",
     titles: [
       "",
+      "微信小程序实现双击功能.md",
     ],
   },
   android: {
