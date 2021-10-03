@@ -3,7 +3,7 @@ sidebar: auto
 ---
 # 关于我
 
-<img style="width: 30%" :src="$withBase=('/note_images/AlanLee.jpg')"/>
+
 
 ## 姓名
 中文名 | 李步官

@@ -9,11 +9,7 @@ const common = require('./sidebar/sidebar-common');
 const project = require('./sidebar/sidebar-project');
 
 module.exports = {
-  "/": [
-    "",
-    "home",
-    "layout",
-  ],
+
   // 前端
   "/front-end/js/": frontend.javascript,
   "/front-end/ts/": frontend.typescript,
@@ -64,5 +60,11 @@ module.exports = {
   "/project/graduation-project/": project.graduationProject,
   "/project/panda-appointment/": project.pandaAppointment,
   "/project/homework-reminder/": project.homeworkReminder,
+
+  "/": [
+    "",
+    "home",
+    "layout",
+  ],
 
 }

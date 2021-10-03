@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: http://blog.alanlee.top/sitemap.xml
+Sitemap: http://blog.alanlee.top/blog-vuepress/sitemap.xml
