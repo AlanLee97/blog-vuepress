@@ -148,7 +148,7 @@ No connected devices found; please connect a device, or see flutter.io/setup for
 
 
 
-![image-20200430121140839](C:\Users\AlanLee\AppData\Roaming\Typora\typora-user-images\image-20200430121140839.png)
+
 
 
 

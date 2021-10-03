@@ -191,9 +191,11 @@ module.exports = config({
       },
     },
   },
-  configureWebpack: (config, isServer) => {
-    if (!isServer) {
-      // 修改客户端的 webpack 配置
+  configureWebpack: {
+    resolve: {
+        alias: {
+            '@img': '/docs/.vuepress/public/note_images'
+        }
     }
-  }
+},
 });

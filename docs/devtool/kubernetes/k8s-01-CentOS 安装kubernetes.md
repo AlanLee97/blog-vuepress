@@ -142,7 +142,7 @@ vim /usr/lib/systemd/system/docker.service
 --exec-opt native.cgroupdriver=systemd
 ```
 
-![屏幕快照 2019-07-15 09.01.21](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image2019-07-15_09.01.21.0e0d34f2.png)
+
 
 设置 docker 镜像
 
@@ -207,7 +207,7 @@ kubeadm init --config=kubeadm-config.yaml --upload-certs
 
 执行结果如下图所示：
 
-![image-20190715101542756](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20190715101542756.5934c00e.png)
+
 
 初始化 root 用户的 kubectl 配置
 
@@ -283,7 +283,7 @@ kubeadm join apiserver.demo:6443 --token mpfjma.4vjjg8flqihor4vt     --discovery
 kubectl get nodes
 ```
 
-![image-20190715193838012](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20190715193838012.eca23618.png)
+
 
 ## 移除 node 节点
 

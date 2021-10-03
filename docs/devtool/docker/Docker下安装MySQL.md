@@ -116,9 +116,7 @@ docker-compose up -d
 
 8. navicat测试连接
 
-![image-20200225084653576](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200225084653576.png)
 
-![image-20200225084510744](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200225084510744.png)
 
 9. 如果需要停掉mysql
 

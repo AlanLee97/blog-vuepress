@@ -45,7 +45,6 @@ UI中国网站（ui.cn）和站酷网站（zcool.cn）上有许多UI设计者们
     - 壁纸
 - 简历展示
 
-![APP](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/APP-1596264388332.png)
 
 
 

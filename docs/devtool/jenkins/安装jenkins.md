@@ -31,7 +31,7 @@ docker run \
 
 docker logs jenkinsci/blueocean容器id
 
-![image-20200221131256001](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200221131256001.png)
+
 
 ```
 790bf04c1383422c9da78397bcb7cbef
@@ -41,7 +41,7 @@ c6f6cba51094442b8d966b9aec592435
 
 访问localhost:8000
 
-![image-20200221142825104](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200221142825104.png)
+
 
 输入刚刚的一串密码
 
@@ -51,7 +51,7 @@ c6f6cba51094442b8d966b9aec592435
 
 安装完之后创建账户
 
-![image-20200221143943321](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200221143943321.png)
+
 
 实例配置
 
@@ -71,7 +71,7 @@ c6f6cba51094442b8d966b9aec592435
 
 输入任务名称-->点击流水线-->点确定
 
-![image-20200221144428604](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200221144428604.png)
+
 
 在 **Description** 字段中填写流水线的简要描述 （例如 `一个演示如何使用Jenkins构建Maven管理的简单Java应用程序的入门级流水线。`）
 
@@ -91,7 +91,7 @@ c6f6cba51094442b8d966b9aec592435
 - Linux系统 - `/home/GitHub/simple-java-maven-app`
 - Windows系统 - `/home/Documents/GitHub/simple-java-maven-app`
 
-![image-20200221145610600](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200221145610600.png)
+
 
 在克隆下来的java maven项目中创建Jenkinsfile文件
 

@@ -6,7 +6,7 @@
 
 ![image-20200404074332049](https://alanlee-image-bed.oss-cn-shenzhen.aliyuncs.com/note_images/20200404074332-468638.png)
 
-![image-20200404075803163](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200404075803163.png)
+
 
 ![image-20200404075936874](https://alanlee-image-bed.oss-cn-shenzhen.aliyuncs.com/note_images/20200404075937-468793.png)
 
@@ -40,13 +40,13 @@
 
 等待安装完成
 
-![image-20200404084215687](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200404084215687.png)
+
 
 ![image-20200404084326576](https://alanlee-image-bed.oss-cn-shenzhen.aliyuncs.com/note_images/20200404084327-377459.png)
 
 登录完成
 
-![image-20200404084353039](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200404084353039.png)
+
 
 
 
@@ -70,7 +70,7 @@ cd /etc/sysconfig/network-scripts
 ls
 ```
 
-![image-20200404085358444](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200404085358444.png)
+
 
 我这里的是ifcfg-ens33
 
@@ -104,7 +104,7 @@ vi ifcfg-ens33
 service network restart
 ```
 
-![image-20200404090956710](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200404090956710.png)
+
 
 配置VMware的虚拟网络
 

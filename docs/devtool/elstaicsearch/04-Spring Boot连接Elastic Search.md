@@ -4,7 +4,6 @@
 
 **Spring Data Elasticsearch**与**Elasticsearch**与**Spring Boot**版版本要求如下，必须一一对应，否则启动不了
 
-![image-20200315211754961](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200315211754961.png)
 
 ## 搭建工程
 

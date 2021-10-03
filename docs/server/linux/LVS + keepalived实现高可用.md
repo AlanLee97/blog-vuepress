@@ -265,7 +265,6 @@ service keepalived start
 
 打开http://192.168.1.100/
 
-![image-20200513201047016](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200513201047016.png)
 
 查看ip
 
@@ -275,7 +274,7 @@ ip addr
 
 vip在DR1机子上。
 
-![image-20200513201336476](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200513201336476.png)
+
 
 手动停止keepalived
 
@@ -287,5 +286,5 @@ ip addr
 
 vip跳到DR2机子上来了
 
-![image-20200513201147559](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200513201147559.png)
+
 

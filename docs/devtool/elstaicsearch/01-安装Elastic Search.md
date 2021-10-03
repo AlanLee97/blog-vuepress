@@ -10,9 +10,7 @@
 
 下载完成后，可以看到是一个压缩包，我们直接解压在 D 盘上，然后打开 `bin` 目录下的 elasticsearch.bat 文件
 
-![image-20200315100915603](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200315100915603.png)
 
-![image-20200315101245456](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/20200315110933-346052.png)
 
 浏览器访问
 
@@ -20,7 +18,7 @@ http://localhost:9200/
 
 返回如下json数据表示成功
 
-![image-20200315101336879](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/20200315110934-998224.png)
+
 
 
 
@@ -30,7 +28,7 @@ http://localhost:9200/
 
 下载后解压，执行bin目录的kibana.bat
 
-![image-20200315111236290](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200315111236290.png)
+
 
 运行
 
@@ -52,7 +50,7 @@ http://localhost:9200/
 
 出现如下图表示成功
 
-![image-20200315112656263](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200315112656263.png)
+
 
 浏览器访问http://localhost:5601/app/kibana#/home
 
@@ -62,8 +60,7 @@ http://localhost:9200/
 
 找到左边侧栏的扳手图标，点击进入dev tools
 
-![image-20200315113415126](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200315113415126.png)
+
 
 点击 【Get to work】，然后在控制台输入 `GET /_cat/health?v` 查看服务器状态，可以在右侧返回的结果中看到 `green` 即表示服务器状态目前是健康的：
 
-![img](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/7896890-b095afd1454e9071.png)

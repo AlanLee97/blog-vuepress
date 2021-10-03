@@ -8,7 +8,7 @@ egrep -c '(vmx|svm)' /proc/cpuinfo
 
 命令结果大于0表示cpu支持虚拟化
 
-![image-20200612161519010](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200612161519010.png)
+
 
 
 
@@ -89,11 +89,11 @@ qemu-img create -f qcow2 /kvmtest/centos7/centos7.qcow2 10G
 
 下载centos，下载地址：http://mirrors.aliyun.com/centos/7.8.2003/isos/x86_64/
 
-![image-20200612200511664](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200612200511664.png)
+
 
 将iCentOS-7-x86_64-Minimal-2003.iso文件上传到服务器
 
-![image-20200612200720678](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200612200720678.png)
+
 
 
 
@@ -119,23 +119,23 @@ virt-install --virt-type kvm --name centos7 --ram 1024 \
 netstat -natp
 ```
 
-![image-20200617082122688](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200617082122688.png)
+
 
 
 
 ##### 9.使用vnc软件连接
 
-![image-20200617082606763](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200617082606763.png)
+
 
 
 
 点击ok之后出现centos的安装界面，自己手动安装即可
 
-![image-20200617082718048](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200617082718048.png)
+
 
 安装完之后重启
 
-![image-20200617084023885](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200617084023885.png)
+
 
 
 
@@ -147,7 +147,7 @@ virsh
 
 
 
-![image-20200617084846659](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200617084846659.png)
+
 
 
 
@@ -157,7 +157,7 @@ virsh
 list --all
 ```
 
-![image-20200617085004891](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200617085004891.png)
+
 
 
 
@@ -167,13 +167,13 @@ list --all
 start centos7
 ```
 
-![image-20200617085136198](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200617085136198.png)
+
 
 
 
 ##### 11. 打开VNC
 
-![image-20200617085351192](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200617085351192.png)
+
 
 此时已经启动安装的虚拟机了。
 
@@ -262,7 +262,7 @@ net-edit default
 
 
 
-![image-20200628152649165](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200628152649165.png)
+
 
 
 
@@ -285,7 +285,7 @@ shutdown centos7
 start centos7
 ```
 
-![image-20200628153055626](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200628153055626.png)
+
 
 
 
@@ -301,7 +301,7 @@ start centos7
 
 -bash: virt-install: command not found
 
-![image-20200612203621473](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200612203621473.png)
+
 
 
 

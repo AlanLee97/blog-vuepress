@@ -118,7 +118,7 @@ ComplexAssembly{list=[list-1, list-2], map={key1=map-1, key2=map-2}, properties=
 xmlns:c="http://www.springframework.org/schema/c"
 xmlns:p="http://www.springframework.org/schema/p"
 
-![image-20200411122610456](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200411122610456.png)
+
 
 
 

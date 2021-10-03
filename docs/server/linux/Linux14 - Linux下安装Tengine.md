@@ -2,7 +2,7 @@
 
 ### 1. 将安装包上传至服务器
 
-![image-20200408155952762](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200408155952762.png)
+
 
 
 
@@ -12,7 +12,7 @@
 tar -zxvf tengine-2.1.0.tar.gz
 ```
 
-![image-20200408160123626](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200408160123626.png)
+
 
 切换到目录
 
@@ -28,7 +28,7 @@ cd tengine-2.1.0
 yum install gcc
 ```
 
-![image-20200408160955757](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200408160955757.png)
+
 
 #### 3.2 预编译tengine
 
@@ -36,11 +36,11 @@ yum install gcc
 ./configure --prefix=/usr/tengine-2.1.0
 ```
 
-![image-20200408161205058](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200408161205058.png)
+
 
 报错，需安装pcre
 
-![image-20200408161306719](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200408161306719.png)
+
 
 #### 3.3 安装pcre
 
@@ -84,7 +84,7 @@ yum install openssl-devel
 make
 ```
 
-![image-20200408162026322](E:/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/OneDrive/%E5%AD%A6%E4%B9%A0/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87/note_images/image-20200408162026322.png)
+
 
 ### 5. 编译安装
 
