@@ -32,6 +32,8 @@ bgImageStyle: {
 #     desc: Detailed description of the article
 #     link: https://link.to.your.article
 
-footer: 努力提升自己，比仰望别人有意义。
+# footer: 努力提升自己，比仰望别人有意义。
+copyrightText: Copyright © 2019-present AlanLee | 努力提升自己，比仰望别人有意义。
+footer: <a href="http://www.beian.miit.gov.cn/">备案号：粤ICP备19015903号</a>
 ---
 
