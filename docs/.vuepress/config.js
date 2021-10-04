@@ -2,7 +2,7 @@ const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
   title: "Blog | AlanLee",
-  description: "If the short cut to learning, it also must be diligent.",
+  description: "努力提升自己，比仰望别人有意义。",
 
   base: "/blog-vuepress/",
 
@@ -104,7 +104,7 @@ module.exports = config({
 
     footer: {
       display: true,
-      content: "默认页脚",
+      content: "",
     },
 
     comment: {

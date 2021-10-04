@@ -237,6 +237,10 @@ module.exports = [
     "icon": "reco-api",
     "items": [
       {
+        "text": "Demo项目",
+        "link": "/project/demo/"
+      },
+      {
         "text": "UUID",
         "link": "/project/graduation-project/"
       },
